@@ -15,7 +15,7 @@ Or directly press the combination: `Ctrl + K, Ctrl + T`. <br/>
 ---
 
 ### Andromeda
-Includes 5 Andromeda color variations.
+Includes 5 Andromeda color variations. <br/>
 ![image](./assets/themes/andromeda_01.png)
 ![image](./assets/themes/andromeda_04.png)
 
@@ -28,7 +28,7 @@ Includes 5 Andromeda color variations.
 ---
 
 ### Dobri Next
-Dobri contains 23 colorful color themes.
+Dobri contains 23 colorful color themes. <br/>
 ![image](./assets/themes/dobri_01.png)
 #### Dobri Next -A00- Black
 ![image](./assets/themes/dobri_02_Dark.png)
