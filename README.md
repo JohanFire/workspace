@@ -47,6 +47,11 @@ npx skills add https://github.com/wshobson/agents --skill error-handling-pattern
 npx skills add https://github.com/wshobson/agents --skill tailwind-design-system
 ```
 
+**python-testing-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill python-testing-patterns
+```
+
 ### More "optional" or in case you need them
 Regla general: Las skills son herramientas, no reglas. Úsalas cuando el contexto lo
 justifique. Usar tipos avanzados "siempre" puede llevar a over-engineering — código más  
