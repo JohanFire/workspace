@@ -2,8 +2,9 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:skills.sh)",
-      "Bash(gh repo:*)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh repo:*)"
     ]
   }
 }

@@ -38,6 +38,36 @@ and return results to the main conversation without polluting it.
 
 ---
 
+## Commands
+Slash commands (invoked with `/`) that can be either **built-in** (fixed utilities) or **custom** (defined workflows).
+
+### Built-in Commands
+Panel controls for Claude Code functionality — execute fixed logic directly.
+> Examples: `/help`, `/model` (switch AI model), `/cost` (show token usage), `/context`,
+`/clear`, `/diff`, `/rewind`.
+
+**Categories:**
+- **Session**: `/clear`, `/rename`, `/resume`, `/branch`
+- **Model**: `/model`, `/effort`, `/fast`
+- **Context**: `/context`, `/cost`, `/compact`
+- **Workflow**: `/diff`, `/rewind`, `/export`
+- **Config**: `/config`, `/permissions`, `/settings`
+- **Tools**: `/mcp`, `/plugin`, `/hooks`, `/agents`
+
+### Custom Commands
+User-defined commands (stored in `.claude/commands/` or via plugins) that can orchestrate
+multi-agent workflows and custom tools. Invoked the same way: `/command-name`.
+> Example: `/feature-development` (multi-agent workflow), `/security-audit` (automated analysis),
+`/generate-docs` (documentation generation).
+
+**Structure:**
+- **Workflows**: Multi-agent orchestration for complex tasks requiring coordination
+- **Tools**: Utility functions for specific domains (testing, API design, deployment, etc.)
+
+> Reference: [wshobson/commands](https://github.com/wshobson/commands) — 15 workflows, 42 tools
+
+---
+
 ## Plugins
 Distributable packages that bundle skills, agents, hooks, and MCP servers to share       
 across projects or teams. Plugin skills are namespaced to avoid conflicts
@@ -49,13 +79,14 @@ teammates.
 
 ## Quick reference
 
-| Concept    | What it is                     | When to use it                          |
-|------------|--------------------------------|-----------------------------------------|
-| Skill      | Instructions for Claude        | Teach processes or patterns             |
-| MCP Server | External tool / API            | Connect Claude to external services     |
-| Agent      | Session with its own identity  | Specialize Claude for a context         |
-| Sub-agent  | Agent delegated by Claude      | Parallelize or isolate sub-tasks        |
-| Plugin     | Distributable bundle           | Share extensions across projects        |
+| Concept    | What it is                          | When to use it                                      |
+|------------|-------------------------------------|-----------------------------------------------------|
+| Command    | Slash command (built-in or custom)  | Automate workflows or quick operations              |
+| Skill      | Instructions/playbook for Claude    | Teach processes, patterns, or standardized behavior |
+| MCP Server | External tool / API                 | Connect Claude to external services                 |
+| Agent      | Session with its own identity       | Specialize Claude for a context                     |
+| Sub-agent  | Agent delegated by Claude           | Parallelize or isolate sub-tasks                    |
+| Plugin     | Distributable bundle                | Share commands, skills, agents across projects      |
 
 ---
 
