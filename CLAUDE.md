@@ -12,6 +12,11 @@ This is a personal workspace-settings repository storing configuration and tooli
 - **`.agents/skills/`** — Reusable AI agent skills installable via `npx skills add ...`
 - **`.gitignore-templates/`** — Gitignore templates for Python, Go, Node/TS, Terraform
 
+## Claude Code Configuration (`.claude/`)
+
+- **`settings.local.json`** — grants `WebFetch` permission to `skills.sh`, required when installing or browsing skills from that domain
+- **`README.md`** — reference for the exact `npx skills add` commands used to install each skill in this repo
+
 ## Skills System
 
 Skills live in `.agents/skills/<skill-name>/` and each contains a `SKILL.md` with frontmatter (`name`, `description`) and instructions for the AI.
