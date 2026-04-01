@@ -44,3 +44,8 @@ npx skills add https://github.com/wshobson/agents --skill error-handling-pattern
 ```sh
 npx skills add https://github.com/wshobson/agents --skill tailwind-design-system
 ```
+
+**typescript-advanced-types**
+```sh
+npx skills add https://github.com/wshobson/agents --skill typescript-advanced-types
+```
