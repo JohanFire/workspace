@@ -80,3 +80,8 @@ Cuándo NO la necesitas
 - Aplicaciones frontend cotidianas con React/Vue
 - Scripts o utilities simples
 - Código donde los tipos básicos (string, number, interfaces simples) son suficientes
+
+**nextjs-app-router-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill nextjs-app-router-patterns
+```
