@@ -62,6 +62,11 @@ npx skills add https://github.com/wshobson/agents --skill architecture-patterns
 npx skills add https://github.com/wshobson/agents --skill code-review-excellence
 ```
 
+**postgresql-table-design**
+```sh
+npx skills add https://github.com/wshobson/agents --skill postgresql-table-design
+```
+
 ### More "optional" or in case you need them
 Regla general: Las skills son herramientas, no reglas. Úsalas cuando el contexto lo
 justifique. Usar tipos avanzados "siempre" puede llevar a over-engineering — código más  
