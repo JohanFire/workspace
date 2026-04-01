@@ -24,3 +24,23 @@ npx skills add https://github.com/obra/superpowers --skill brainstorming
 ```sh
 npx skills add https://github.com/obra/superpowers --skill systematic-debugging
 ```
+
+**changelog-generator**
+```sh
+npx skills add https://github.com/composiohq/awesome-claude-skills --skill changelog-generator
+```
+
+**api-design-principles**
+```sh
+npx skills add https://github.com/wshobson/agents --skill api-design-principles
+```
+
+**error-handling-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill error-handling-patterns
+```
+
+**tailwind-design-system**
+```sh
+npx skills add https://github.com/wshobson/agents --skill tailwind-design-system
+```
