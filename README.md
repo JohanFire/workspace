@@ -52,6 +52,11 @@ npx skills add https://github.com/wshobson/agents --skill tailwind-design-system
 npx skills add https://github.com/wshobson/agents --skill python-testing-patterns
 ```
 
+**architecture-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill architecture-patterns
+```
+
 ### More "optional" or in case you need them
 Regla general: Las skills son herramientas, no reglas. Úsalas cuando el contexto lo
 justifique. Usar tipos avanzados "siempre" puede llevar a over-engineering — código más  
@@ -81,7 +86,14 @@ Cuándo NO la necesitas
 - Scripts o utilities simples
 - Código donde los tipos básicos (string, number, interfaces simples) son suficientes
 
+**nodejs-backend-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill nodejs-backend-patterns
+```
+
 **nextjs-app-router-patterns**
 ```sh
 npx skills add https://github.com/wshobson/agents --skill nextjs-app-router-patterns
 ```
+
+
