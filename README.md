@@ -72,9 +72,24 @@ Regla general: Las skills son herramientas, no reglas. Úsalas cuando el context
 justifique. Usar tipos avanzados "siempre" puede llevar a over-engineering — código más  
 complejo de lo necesario.
 
+**prompt-engineering-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill prompt-engineering-patterns
+```
+
 **python-performance-optimization**
 ```sh
 npx skills add https://github.com/wshobson/agents --skill python-performance-optimization
+```
+
+**fastapi-templates**
+```sh
+npx skills add https://github.com/wshobson/agents --skill fastapi-templates
+```
+
+**async-python-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill async-python-patterns
 ```
 
 **typescript-advanced-types**
@@ -104,6 +119,38 @@ npx skills add https://github.com/wshobson/agents --skill nodejs-backend-pattern
 **nextjs-app-router-patterns**
 ```sh
 npx skills add https://github.com/wshobson/agents --skill nextjs-app-router-patterns
+```
+
+**e2e-testing-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill e2e-testing-patterns
+```
+Cypress and Playwright
+
+**github-actions-templates**
+```sh
+npx skills add https://github.com/wshobson/agents --skill github-actions-templates
+```
+
+**responsive-design**
+CSS stuf
+```sh
+npx skills add https://github.com/wshobson/agents --skill responsive-design
+```
+
+**mobile-android-design**
+```sh
+npx skills add https://github.com/wshobson/agents --skill mobile-android-design
+```
+
+**mobile-ios-design**
+```sh
+npx skills add https://github.com/wshobson/agents --skill mobile-ios-design
+```
+
+**sql-optimization-patterns**
+```sh
+npx skills add https://github.com/wshobson/agents --skill sql-optimization-patterns
 ```
 
 
