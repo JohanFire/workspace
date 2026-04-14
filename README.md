@@ -151,7 +151,7 @@ npx skills add https://github.com/wshobson/agents --skill python-testing-pattern
 npx skills add https://github.com/wshobson/agents --skill architecture-patterns
 ```
 
-**architecture-patterns**
+**code-review-excellence**
 ```sh
 npx skills add https://github.com/wshobson/agents --skill code-review-excellence
 ```
